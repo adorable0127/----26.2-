@@ -1,6 +1,51 @@
 ```
-# Compressed archives
-*.tar.gz
+# Compiled and build artifacts
+*.jar
+*.class
+*.pyc
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -19,11 +64,4 @@
 *.Z
 *.lz
 *.lzo
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Archives
-SJPlugin-Final.tar.gz
-SJPlugin-Final/
 ```
